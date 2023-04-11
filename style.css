@@ -103,4 +103,25 @@ p {
   padding: 10px;
 }
 
+@media only screen and (max-device-width: 320px) {
+  .card { 
+    width: 650px;
+    margin: 30px;
+    margin-left: -25%; }  
+  }
+
+@media only screen and (max-device-width: 600px) {
+  .card {
+    width: 650px;
+    margin: 30px;
+    margin-left: -25%; }  
+  }
+
+@media only screen and (max-device-width: 720px) {
+  .card { 
+    width: 650px;
+    margin: 30px;
+    margin-left: -25%;
+   } 
+  }
 
