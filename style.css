@@ -1,11 +1,11 @@
-body { /*cor de fundo*/ 
+body { 
     font-family: Arial, sans-serif;
     background-color:#C7D7D8;
     color:rgb(0, 0, 0); 
     margin: 0px;
   }
   
-  .header { /*cor do cabeçalho*/
+  .header { 
     background-color:  rgb(141, 180, 172);
     color: rgb(0, 0, 0);
     padding: 30px;
@@ -42,7 +42,7 @@ body { /*cor de fundo*/
     margin: 50px 11px;
   }
   
-  header nav a { /*cor texto cabeçalho */
+  header nav a { 
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
@@ -59,7 +59,7 @@ body { /*cor de fundo*/
     justify-content: space-between;
   }
   
-  footer { /*cor rodape*/
+  footer { 
     background-color: rgb(141, 180, 172);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -105,23 +105,28 @@ p {
 
 @media only screen and (max-device-width: 320px) {
   .card { 
+    zoom: 120%;
     width: 650px;
     margin: 30px;
-    margin-left: -25%; }  
+    margin-left: -35%;
+    }  
   }
 
 @media only screen and (max-device-width: 600px) {
   .card {
+    zoom: 120%;
     width: 650px;
     margin: 30px;
-    margin-left: -25%; }  
+    margin-left: -35%;
+    }  
   }
 
 @media only screen and (max-device-width: 720px) {
   .card { 
+    zoom: 120%;
     width: 650px;
     margin: 30px;
-    margin-left: -25%;
-   } 
+    margin-left: -35%;
+    } 
   }
 
